@@ -1,0 +1,41 @@
+# css best practices
+
+### code structure
+ - reset first
+   - at least reset the box-sizing: border-box; and body's margin: 0;
+ - typography next
+ - layout
+   - at least .container class
+- components next
+- page specifics last
+- KISS
+  - avoid px widths,
+  - avoid heights
+  - margin bottom + padding top
+- DRY
+  - use hierarchy
+    - <div class="card"><div class="title">...
+    - target via .card .title {}
+  - use composition
+    - combine classes
+    - class="button primary" targeted via .button.primary {}
+  - use cascading
+    - specifics augment and override generics
+    - #login-button stronger than.button {} stronger than a {}
+    - @media (...) { a {} } stronger than a {}
+  - use inheritance
+    - type attributes (font-family, font-size, line-height, color, ...) trickle down from parent to children
+  - semantic:
+    - semantic css, classes named after what things ARE not what they LOOK LIKE
+      - e.g.: .copy, .site-header, .copyright, .email ...
+  - clearing floats
+    - overflow: hidden on the parent
+    - OR clear: both on a sibling after the floats
+- DO
+  - short selectors
+  - e.g.: .header li
+- DON'T
+  - use !important
+  - name classes after presentation
+    - e.g.: .green-text {}
+

@@ -20,4 +20,7 @@
  - https://flexboxfroggy.com/
  - https://cssgridgarden.com/
  - https://ironion.com/blog/2015/06/12/anatomy-of-a-css-rule/
-- https://cssreference.io/
+ - https://cssreference.io/
+ - https://css-tricks.com/box-sizing/
+ - https://css-tricks.com/almanac/properties/b/box-sizing/
+ - https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity

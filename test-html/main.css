@@ -1,0 +1,33 @@
+* {
+  border: 1px solid red;
+}
+
+.hidden {
+  display: none
+}
+
+#student {
+  color: blue;
+}
+
+.button {
+  width: 100px;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid red;
+  font-size: 14px;
+}
+
+.accept {
+  background-color: green;
+
+}
+
+/* .accept p{
+  background-color: blue;
+
+} */
+
+.reject {
+  background-color: red;
+}
